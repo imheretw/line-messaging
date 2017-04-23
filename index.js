@@ -1,5 +1,6 @@
 var Message = require('./lib/linebot/message');
 var Action = require('./lib/linebot/action');
+var Event = require('./lib/linebot/event');
 var BaseEvent = require('./lib/linebot/event/base.event');
 var Template = require('./lib/linebot/message/template');
 
@@ -54,5 +55,7 @@ module.exports = {
   Events: BaseEvent.TYPE,
   EventSource: BaseEvent.SOURCE_TYPE,
   Template: Template.TYPE,
-  Action: Action.TYPE
+  Action: Action.TYPE,
+
+  Event: Event
 };
