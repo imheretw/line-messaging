@@ -1,6 +1,6 @@
 {
-  "name": "line-messaging",
-  "version": "1.1.7",
+  "name": "node-line-messaging",
+  "version": "2.0.0",
   "description": "SDK of the LINE Message API for Node.js",
   "main": "index.js",
   "scripts": {
@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snlangsuan/line-messaging.git"
+    "url": "git+https://github.com/imheretw/node-line-messaging.git"
   },
   "keywords": [
     "LINE",
     "messaging",
     "api"
   ],
-  "author": "decimo.me",
+  "author": "imheretw",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/snlangsuan/line-messaging/issues"
+    "url": "https://github.com/imheretw/node-line-messaging/issues"
   },
-  "homepage": "https://github.com/snlangsuan/line-messaging#readme",
+  "homepage": "https://github.com/imheretw/node-line-messaging#readme",
   "dependencies": {
     "request": "^2.75.0"
   },
